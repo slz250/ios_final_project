@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:World Clock.xcodeproj">
+      location = "group:/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/zzz.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/launch.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/launchscreen.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/launchscreen.jpeg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

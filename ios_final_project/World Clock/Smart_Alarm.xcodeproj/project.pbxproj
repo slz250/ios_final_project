@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16944391FDCA60300817B96 /* launchheader.png in Resources */ = {isa = PBXBuildFile; fileRef = E16944381FDCA60300817B96 /* launchheader.png */; };
+		E169443C1FDCAB1900817B96 /* grouplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = E169443B1FDCAB1900817B96 /* grouplogo.png */; };
 		EC6B15671D7CCDD3002DB18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */; };
 		EC6B156E1D7CCDD3002DB18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6B156C1D7CCDD3002DB18C /* Main.storyboard */; };
 		EC6B15701D7CCDD3002DB18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6B156F1D7CCDD3002DB18C /* Assets.xcassets */; };
@@ -33,6 +35,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E16944381FDCA60300817B96 /* launchheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchheader.png; sourceTree = "<group>"; };
+		E169443B1FDCAB1900817B96 /* grouplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grouplogo.png; sourceTree = "<group>"; };
+		E16944411FDCBA3E00817B96 /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchscreen.png; path = "/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/launchscreen.png"; sourceTree = "<absolute>"; };
+		E16944451FDCBC5200817B96 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = "/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/launch.png"; sourceTree = "<absolute>"; };
+		E169444A1FDCC49D00817B96 /* zzz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zzz.png; path = "/Users/KaraAlexa/Desktop/ios_final_project/ios_final_project/World Clock/Smart_Alarm/zzz.png"; sourceTree = "<absolute>"; };
 		EC6B15631D7CCDD3002DB18C /* World Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC6B156D1D7CCDD3002DB18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,6 +114,11 @@
 		EC6B157A1D7CCEEE002DB18C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E169444A1FDCC49D00817B96 /* zzz.png */,
+				E16944411FDCBA3E00817B96 /* launchscreen.png */,
+				E16944451FDCBC5200817B96 /* launch.png */,
+				E169443B1FDCAB1900817B96 /* grouplogo.png */,
+				E16944381FDCA60300817B96 /* launchheader.png */,
 				EC6B157B1D7CCF0B002DB18C /* alarm.png */,
 				EC6B157C1D7CCF0B002DB18C /* globe.png */,
 				EC6B157D1D7CCF0B002DB18C /* lap.png */,
@@ -176,12 +188,12 @@
 				TargetAttributes = {
 					EC6B15621D7CCDD3002DB18C = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2C98UGPYX4;
+						DevelopmentTeam = NFC9GE7SG7;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */;
+			buildConfigurationList = EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "Smart_Alarm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -205,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC6B158E1D7CCF0B002DB18C /* timer_cancel.png in Resources */,
+				E169443C1FDCAB1900817B96 /* grouplogo.png in Resources */,
 				EC6B15901D7CCF0B002DB18C /* timer_resume.png in Resources */,
 				EC6B158A1D7CCF0B002DB18C /* reset.png in Resources */,
 				EC6B15881D7CCF0B002DB18C /* globe.png in Resources */,
@@ -218,6 +231,7 @@
 				EC6B15911D7CCF0B002DB18C /* timer_start.png in Resources */,
 				EC6B15701D7CCDD3002DB18C /* Assets.xcassets in Resources */,
 				EC6B156E1D7CCDD3002DB18C /* Main.storyboard in Resources */,
+				E16944391FDCA60300817B96 /* launchheader.png in Resources */,
 				EC6B158D1D7CCF0B002DB18C /* stopwatch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,10 +373,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C98UGPYX4;
+				DEVELOPMENT_TEAM = NFC9GE7SG7;
 				INFOPLIST_FILE = "$(SRCROOT)/Smart_Alarm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NYU-iOS.final-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "kat392.final-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -372,10 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C98UGPYX4;
+				DEVELOPMENT_TEAM = NFC9GE7SG7;
 				INFOPLIST_FILE = "$(SRCROOT)/Smart_Alarm/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "NYU-iOS.final-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "kat392.final-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -384,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */ = {
+		EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "Smart_Alarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B15751D7CCDD3002DB18C /* Debug */,
