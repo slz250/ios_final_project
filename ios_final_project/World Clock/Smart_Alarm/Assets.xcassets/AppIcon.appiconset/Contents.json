@@ -3,104 +3,110 @@
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "20@2x-1.png",
+      "filename" : "ioslogo-15.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "20x20",
       "idiom" : "iphone",
-      "filename" : "20@3x.png",
+      "filename" : "ioslogo-8.jpeg",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "29@2x-1.png",
+      "filename" : "ioslogo-13.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "29@3x.png",
+      "filename" : "ioslogo2 copy.jpeg",
       "scale" : "3x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "40@2x-1.png",
+      "filename" : "ioslogo-7.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "40@3x.png",
+      "filename" : "ioslogo-6.jpeg",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "60@2x.png",
+      "filename" : "ioslogo-5.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "60@3x.png",
+      "filename" : "ioslogo-4.jpeg",
       "scale" : "3x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "20@1x.png",
+      "filename" : "ioslogo-12.jpeg",
       "scale" : "1x"
     },
     {
       "size" : "20x20",
       "idiom" : "ipad",
-      "filename" : "20@2x.png",
+      "filename" : "ioslogo-14.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "29@1x.png",
+      "filename" : "ioslogo-11.jpeg",
       "scale" : "1x"
     },
     {
       "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "29@2x.png",
+      "filename" : "ioslogo-9.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "40@1x.png",
+      "filename" : "ioslogo-10.jpeg",
       "scale" : "1x"
     },
     {
       "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "40@2x.png",
+      "filename" : "ioslogo-3.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "76@1x.png",
+      "filename" : "ioslogo-2.jpeg",
       "scale" : "1x"
     },
     {
       "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "76@2x.png",
+      "filename" : "ioslogo-1.jpeg",
       "scale" : "2x"
     },
     {
       "size" : "83.5x83.5",
       "idiom" : "ipad",
-      "filename" : "83@2x.png",
+      "filename" : "ioslogo.jpeg",
       "scale" : "2x"
+    },
+    {
+      "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "ioslogo2.jpeg",
+      "scale" : "1x"
     }
   ],
   "info" : {
