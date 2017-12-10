@@ -23,9 +23,6 @@
 		EC6B15901D7CCF0B002DB18C /* timer_resume.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15841D7CCF0B002DB18C /* timer_resume.png */; };
 		EC6B15911D7CCF0B002DB18C /* timer_start.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15851D7CCF0B002DB18C /* timer_start.png */; };
 		EC6B15921D7CCF0B002DB18C /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6B15861D7CCF0B002DB18C /* timer.png */; };
-		EC6B15951D7CCFA4002DB18C /* WorldClockTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */; };
-		EC6B15971D7CCFD1002DB18C /* TimeZonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */; };
-		EC6B15991D7CD04C002DB18C /* WorldClockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */; };
 		ECA298A51D7F80DD003B4389 /* AlarmTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A41D7F80DD003B4389 /* AlarmTableViewController.swift */; };
 		ECA298A71D7F80F3003B4389 /* AddAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A61D7F80F3003B4389 /* AddAlarmViewController.swift */; };
 		ECA298A91D7F8111003B4389 /* AddAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA298A81D7F8111003B4389 /* AddAlarmTableViewCell.swift */; };
@@ -51,9 +48,6 @@
 		EC6B15841D7CCF0B002DB18C /* timer_resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_resume.png; sourceTree = "<group>"; };
 		EC6B15851D7CCF0B002DB18C /* timer_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_start.png; sourceTree = "<group>"; };
 		EC6B15861D7CCF0B002DB18C /* timer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer.png; sourceTree = "<group>"; };
-		EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewController.swift; sourceTree = "<group>"; };
-		EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZonesTableViewController.swift; sourceTree = "<group>"; };
-		EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldClockTableViewCell.swift; sourceTree = "<group>"; };
 		ECA298A41D7F80DD003B4389 /* AlarmTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewController.swift; sourceTree = "<group>"; };
 		ECA298A61D7F80F3003B4389 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
 		ECA298A81D7F8111003B4389 /* AddAlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmTableViewCell.swift; sourceTree = "<group>"; };
@@ -92,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				ECA298A31D7F80BA003B4389 /* Alarm */,
-				EC6B15931D7CCF74002DB18C /* World Clock */,
 				EC6B157A1D7CCEEE002DB18C /* Images */,
 				EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */,
 				EC6B156C1D7CCDD3002DB18C /* Main.storyboard */,
@@ -121,16 +114,6 @@
 				EC6B15861D7CCF0B002DB18C /* timer.png */,
 			);
 			name = Images;
-			sourceTree = "<group>";
-		};
-		EC6B15931D7CCF74002DB18C /* World Clock */ = {
-			isa = PBXGroup;
-			children = (
-				EC6B15941D7CCFA4002DB18C /* WorldClockTableViewController.swift */,
-				EC6B15961D7CCFD1002DB18C /* TimeZonesTableViewController.swift */,
-				EC6B15981D7CD04C002DB18C /* WorldClockTableViewCell.swift */,
-			);
-			name = "World Clock";
 			sourceTree = "<group>";
 		};
 		ECA298A31D7F80BA003B4389 /* Alarm */ = {
@@ -181,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */;
+			buildConfigurationList = EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "Smart_Alarm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -230,13 +213,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECA298A71D7F80F3003B4389 /* AddAlarmViewController.swift in Sources */,
-				EC6B15971D7CCFD1002DB18C /* TimeZonesTableViewController.swift in Sources */,
 				ECA298AB1D7F8BF0003B4389 /* HelperClass.swift in Sources */,
 				ECA298A51D7F80DD003B4389 /* AlarmTableViewController.swift in Sources */,
 				EC6B15671D7CCDD3002DB18C /* AppDelegate.swift in Sources */,
-				EC6B15951D7CCFA4002DB18C /* WorldClockTableViewController.swift in Sources */,
 				ECA298A91D7F8111003B4389 /* AddAlarmTableViewCell.swift in Sources */,
-				EC6B15991D7CD04C002DB18C /* WorldClockTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +364,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "World Clock" */ = {
+		EC6B155E1D7CCDD3002DB18C /* Build configuration list for PBXProject "Smart_Alarm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC6B15751D7CCDD3002DB18C /* Debug */,
