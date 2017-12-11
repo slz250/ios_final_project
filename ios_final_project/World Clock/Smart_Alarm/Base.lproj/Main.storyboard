@@ -86,9 +86,14 @@
                                     <segue destination="l4C-oc-7uv" kind="presentation" identifier="newSegue" id="uve-9Y-UuU"/>
                                 </connections>
                             </barButtonItem>
-                            <barButtonItem title="Questions" id="AKu-r6-8MJ"/>
+                            <barButtonItem title="Questions" id="AKu-r6-8MJ">
+                                <connections>
+                                    <segue destination="HpG-8S-C1U" kind="show" id="Beg-WF-amt"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pns-GS-xYk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -235,6 +240,7 @@
         <image name="alarm.png" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Beg-WF-amt"/>
         <segue reference="8bF-VA-84F"/>
         <segue reference="nVA-ZD-nIz"/>
     </inferredMetricsTieBreakers>
