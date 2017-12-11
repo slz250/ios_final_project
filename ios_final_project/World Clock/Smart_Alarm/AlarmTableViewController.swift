@@ -42,8 +42,8 @@ class AlarmTableViewController: UITableViewController, AddAlarmProtocol, UpdateS
         let content = UNMutableNotificationContent()
         content.title = "Alarm"
         content.subtitle = "Time Notification"
-        content.body = "It is time to do something."
-        content.sound = UNNotificationSound.default()
+        content.body = "It is time to solve the questions!"
+        content.sound = UNNotificationSound(named: "alarm.aiff")
         
         var interval = time.timeIntervalSinceNow
         if interval < 0 {
@@ -51,13 +51,14 @@ class AlarmTableViewController: UITableViewController, AddAlarmProtocol, UpdateS
             interval = tomorrow.timeIntervalSinceNow
         }
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: interval, repeats: false)
-        
-        let requestIdentifier = "sampleRequest"
-        let request = UNNotificationRequest(identifier: requestIdentifier, content: content, trigger: trigger)
-        
-        UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-        
+        for i in 0...64 {
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(interval + Double(i * 30)), repeats: false)
+            
+            let requestIdentifier = "sampleRequest" + String(i)
+            let request = UNNotificationRequest(identifier: requestIdentifier, content: content, trigger: trigger)
+            
+            UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
+        }
     }
     
     
@@ -138,6 +139,10 @@ class AlarmTableViewController: UITableViewController, AddAlarmProtocol, UpdateS
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if (segue.identifier == "questions_segue") {
+            return
+        }
         
         let dvc = segue.destination as! AddAlarmViewController
         dvc.delegate = self

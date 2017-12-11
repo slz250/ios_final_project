@@ -2,7 +2,8 @@
 
 import UIKit
 
-var str = "Hello, playground"
+var str = "test"
+var num = 1
 
-print(NSTimeZone.knownTimeZoneNames)
+print(str + String(num))
 
