@@ -23,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         
         UNUserNotificationCenter.current().delegate = self
         
+        if (launchOptions![UIApplicationLaunchOptionsKey.localNotification] != nil)
+                {
+                    print("TEST BITCH")
+                }
         return true
     }
     
