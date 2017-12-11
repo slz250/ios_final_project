@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37BA54A31FDE336C00D99A80 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BA54A21FDE336C00D99A80 /* QuizViewController.swift */; };
 		5DB374C31FDE195D00B62B81 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB374BF1FDE195C00B62B81 /* launch.png */; };
 		5DB374C41FDE195D00B62B81 /* grouplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB374C01FDE195D00B62B81 /* grouplogo.png */; };
 		5DB374C51FDE195D00B62B81 /* launchheader.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DB374C11FDE195D00B62B81 /* launchheader.png */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37BA54A21FDE336C00D99A80 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		5DB374BF1FDE195C00B62B81 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launch.png; path = ../../../../../../Downloads/pics/launch.png; sourceTree = "<group>"; };
 		5DB374C01FDE195D00B62B81 /* grouplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grouplogo.png; path = ../../../../../../Downloads/pics/grouplogo.png; sourceTree = "<group>"; };
 		5DB374C11FDE195D00B62B81 /* launchheader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchheader.png; path = ../../../../../../Downloads/pics/launchheader.png; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37BA54A11FDE333D00D99A80 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				37BA54A21FDE336C00D99A80 /* QuizViewController.swift */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
 		EC6B155A1D7CCDD3002DB18C = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		EC6B15651D7CCDD3002DB18C /* Smart_Alarm */ = {
 			isa = PBXGroup;
 			children = (
+				37BA54A11FDE333D00D99A80 /* Quiz */,
 				ECA298A31D7F80BA003B4389 /* Alarm */,
 				EC6B157A1D7CCEEE002DB18C /* Images */,
 				EC6B15661D7CCDD3002DB18C /* AppDelegate.swift */,
@@ -235,6 +246,7 @@
 				ECA298A71D7F80F3003B4389 /* AddAlarmViewController.swift in Sources */,
 				ECA298AB1D7F8BF0003B4389 /* HelperClass.swift in Sources */,
 				ECA298A51D7F80DD003B4389 /* AlarmTableViewController.swift in Sources */,
+				37BA54A31FDE336C00D99A80 /* QuizViewController.swift in Sources */,
 				EC6B15671D7CCDD3002DB18C /* AppDelegate.swift in Sources */,
 				ECA298A91D7F8111003B4389 /* AddAlarmTableViewCell.swift in Sources */,
 			);
